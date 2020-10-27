@@ -19,5 +19,4 @@ import org.checkerframework.framework.qual.TypeUseLocation;
 @Retention(RetentionPolicy.RUNTIME)
 @DefaultQualifierInHierarchy
 @Target({ElementType.TYPE_USE, ElementType.TYPE_PARAMETER})
-@DefaultFor({TypeUseLocation.EXCEPTION_PARAMETER})
 public @interface TemplateforaBottom {}
